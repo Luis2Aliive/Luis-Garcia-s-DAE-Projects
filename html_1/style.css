@@ -3,9 +3,16 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #fbfbfb;
+    background-color: #ffffff;
   }
-  
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 43.9%;
+  }
+
   li {
     float: left;
   }
@@ -14,10 +21,18 @@ ul {
     display: block;
     color: rgb(239, 239, 239);
     text-align: center;
-    padding: 14px 50px;
+    padding: 13.9px 44.4px;
     text-decoration: none;
     background-color: rgb(0, 0, 0);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  li {
+    border-right: 1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
   }
   
   /* Change the link color to #111 (black) on hover */
@@ -26,9 +41,12 @@ ul {
   }
 
   h1 {
-    color: rgb(142, 142, 142);
+    color: rgb(0, 0, 0);
   }
 
- h1 {
-    text-shadow: 2px 2px rgb(0, 0, 0);
- }
+  p {
+    text-align: left;
+    color: rgb(0, 0, 0);
+  }
+
+ 
